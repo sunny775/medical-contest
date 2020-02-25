@@ -85,3 +85,19 @@ padding-left: 0;
 .navbar .nav-link{
     color:white;
 }
+.our-values .card{
+    border: 0;
+    box-shadow: none;
+}
+.our-values .card .card-title{
+    text-align: center;
+}
+.our-values .card-media{
+    max-width:150px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 40px;
+    background:  white;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.035);
+    margin:auto;
+}
