@@ -1,0 +1,87 @@
+.main-content{
+ 
+    background-image:url(images/medical-icon.png);
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: contain;
+  background-attachment: fixed;
+  padding:6vw;
+  padding-top: 2vw;
+  position:relative;
+}
+.btn{
+    border-radius: 30px !important;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+.banner{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom: 0;
+    left:0;
+    background: rgba(255, 255, 255, 0.75);
+}
+.navbar input[type='text']{
+    background:rgba(0,0,0,0.04);
+    border-radius: 30px;
+}
+.navbar{
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.035);
+    padding-left: 6vw !important;
+    padding-right: 6vw !important;
+}
+.nav-item.active a{
+    font-size: 1.7em !important;
+    opacity:0.9;
+}
+
+.jumbotron{
+    padding:0 !important;
+    /* #007bff;*/
+    margin:0 !important;
+    margin-bottom: 6vw !important;
+    opacity: 0.95;
+}
+.jumbotron .doc-img{
+    margin:0 !important;
+    padding:0;
+}
+.card{
+    margin-bottom: 20px;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.035);
+}
+.card-section .card-body h4{
+    letter-spacing: 1px;
+}
+footer{
+    padding: 0 7vw;
+    padding-bottom: 7vw;
+    background: #3798ffef;
+}
+.footer-cards{
+    margin:auto !important;
+    width: fit-content;
+    background: red;
+}
+.footer-cards .card{
+    border:none !important;
+    background: black;
+    margin:0 !important;
+    padding: 0 1px;
+}
+.footer-cards .card:first-child{
+padding-left: 0;
+}
+.footer-cards .card:last-child{
+    padding-right: 0;
+    }
+
+.copyright{
+    text-align: center;
+    margin-top:50px;
+}
+.navbar .nav-link{
+    color:white;
+}
