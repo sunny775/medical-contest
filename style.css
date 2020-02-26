@@ -13,6 +13,12 @@
     border-radius: 30px !important;
     text-transform: uppercase;
     font-size: 0.7em;
+    background-color: /*#aeea00*/#795548  !important;
+    border: 1px solid #795548  !important;
+}
+.btn:hover{
+    background-color: #88b600 !important;
+    border: 1px solid #88b600  !important;
 }
 .banner{
     position:absolute;
@@ -42,6 +48,7 @@
     margin:0 !important;
     margin-bottom: 6vw !important;
     opacity: 0.95;
+   
 }
 .jumbotron .doc-img{
     margin:0 !important;
@@ -58,18 +65,21 @@
 footer{
     padding: 0 7vw;
     padding-bottom: 7vw;
-    background: #3798ffef;
+    background-color: #d7ccc8 !important;
 }
 .footer-cards{
     margin:auto !important;
     width: fit-content;
-    background: red;
 }
 .footer-cards .card{
     border:none !important;
     background: black;
     margin:0 !important;
     padding: 0 1px;
+}
+.footer-cards .card-body{
+    /*background-color: #aeea00;*/
+    background-color: #bcaaa4 ;
 }
 .footer-cards .card:first-child{
 padding-left: 0;
@@ -100,4 +110,9 @@ padding-left: 0;
     background:  white;
     box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.035);
     margin:auto;
+}
+.card-section .card:not(:first-child){
+    /*background-color: #aeea00;*/
+    background-color: #bcaaa4 ;
+    border:none !important;
 }
